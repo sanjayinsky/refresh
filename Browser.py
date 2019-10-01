@@ -6,3 +6,4 @@ while True:
 	visit = 'https://google.com'
 	webbrowser.open(visit)
 	seconds = random.randrange(5, 20)
+	time.sleep(seconds)
